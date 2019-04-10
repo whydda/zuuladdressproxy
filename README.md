@@ -1,7 +1,7 @@
 # ZUUL을 이용한 proxy서버 구현
 
 
-##**사용법**
+## **사용법**
 
 > -  http://www.juso.go.kr 에서 API 인증키 발급 받고 application.properties에 **whydda.address.confmkey** 프로퍼티 등록
 > - properties 내용 (다른 서버로 설정도 가능하다.) 
