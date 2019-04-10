@@ -1,8 +1,9 @@
 # ZUUL을 이용한 proxy서버 구현
 
 
-> ##**사용법**
-> - http://www.juso.go.kr 에서 API 인증키 발급 받고 application.properties에 **whydda.address.confmkey** 프로퍼티 등록
+##**사용법**
+
+> -  http://www.juso.go.kr 에서 API 인증키 발급 받고 application.properties에 **whydda.address.confmkey** 프로퍼티 등록
 > - properties 내용 (다른 서버로 설정도 가능하다.) 
 
     zuul.routes.products.path = /addrlink/addrLinkApi.do
@@ -18,9 +19,8 @@
     keyword:노해로508
     resultType:json
     
-key는 zuulserver에 존재함으로 제외하고 요청을 보낸다.
-그럼 정상적으로 
-     
+> - key는 zuulserver에 존재함으로 제외하고 요청을 보낸다. 
+
     {
         "results": {
             "common": {
@@ -59,5 +59,5 @@ key는 zuulserver에 존재함으로 제외하고 요청을 보낸다.
                 }
             ]
         }
-    }
-응답 결과를 받을 수 있다.
+    }  
+> 응답 결과를 받을 수 있다.
