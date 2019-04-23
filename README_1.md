@@ -1,3 +1,6 @@
+
+[<-이전기록보기](https://github.com/whydda/zuuladdressproxy/blob/master/README_1.md)
+
 # ZUUL을 이용한 proxy서버 규현 #1
 
 
